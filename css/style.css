@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    font-family: "Source Code Pro", serif; 
+    /* font-family: "Lora", serif; */
+}
+.pb-40{
+    padding-bottom: 2.5rem;
+}
+.pt-40{
+    padding-top: 2.5rem;
+}
+.navbar {
+    /* background-color: #f5f9fc; */
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #01796F;
+}
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.hero-section {
+    /* background-color: #f5f9fc; */
+    padding: 80px 0;
+}
+.leafImg {
+    width: 250px;
+    margin-bottom: 2rem;
+}
+.hero-content h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    font-family: 'Lora', serif;
+}
+.hero-content h1 span {
+    color: #01796F;
+    font-weight: bold;
+}
+.para_nunito {
+    font-size: 1.5rem;
+    color: #888888;
+    margin-bottom: 20px;
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    padding: 1rem 0rem;
+}
+.join-btn {
+    background-color: #01796F;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 200px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+
+}
+
+.join-btn:hover {
+    background-color: #015F58;
+}
+.hero-images img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.first_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#flex-gap{
+    justify-content: flex-start;
+    gap: 2.5rem;
+}
+#flex-gap a img{
+    width: 40px;
+}
+.trusworthy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.trusworthy a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 0.9rem;
+}
+.br_bottom {
+    border-bottom: 2px solid #696767c4;
+}
+.head_green{
+    font-size: 3rem;
+    text-transform: capitalize;
+    /* margin-bottom: 1rem; */
+    color: #008080;
+    font-family: 'Lora', serif; 
+}
+.product_para{
+    font-size: 1.5rem;
+    color: #101010CC;
+    font-family: "Nunito", serif;
+    padding: 0.5rem 0rem;
+    font-weight: 400;
+}
+.product-brand {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 15px;
+    background: #E6F2F2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 2.5rem;
+}
+#bg_product{
+    background-image: url('../img/bg_product.png');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: 100% center;
+}
+.head_black{
+    font-family: "Nunito", serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.para_nunito_black{
+    font-size: 1.16rem;
+    color: #000;
+}
+.text_light_blue{
+    color: #008080;
+}
+.head_blue{
+    font-family: "Nunito", serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #008080;  
+}
+#circle-green{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #008080;
+    position: relative;
+    left: 80%;
+    bottom: 20px;
+    animation-name: moveIt;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes moveIt {
+from{
+    transform: translate(0%,20%);
+}
+to{
+    transform: translate(0%,-20%);
+}
+}
+
+.img_old{
+    width: 217px;
+    display: block;
+    margin: auto;
+}
+.text_blue_nunito_700{
+    font-size: 27px;
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    color: #008080;
+}
+
+
+
+.our-section-bg{
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(0, 128, 128, 0.36), rgba(0, 128, 128, 0) 80%) left, linear-gradient(to left, rgba(0, 128, 128, 0.36), rgba(0, 128, 128, 0) 80%) right;
+    background-repeat: no-repeat;
+}
+
+.our-section-bg {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(0, 128, 128, 0.36), rgba(0, 128, 128, 0) 80%) left, linear-gradient(to left, rgba(0, 128, 128, 0.36), rgba(0, 128, 128, 0) 80%) right;
+    /* background-repeat: no-repeat; */
+}
+
+/* faq  */
+.head_green_small{
+    font-size: 1.6rem;
+    font-family: 'Lora', serif; 
+    font-weight: 600;
+    color: #008080;
+}
+
+/* footer  */
+.footer {
+    background: #fff;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+.footer div {
+    flex: 1;
+    min-width: 180px;
+    margin: 10px;
+}
+.footer div #flex-width{
+   min-width: 450px; 
+}
+.footer-logo{
+    width: 290px;
+}
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footer .product_para{
+    font-size: 1.2rem;
+    padding-right: 2rem;
+}
+.footer a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+.footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer div {
+        margin: 10px auto;
+    }
+}
